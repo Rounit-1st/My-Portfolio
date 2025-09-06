@@ -37,7 +37,7 @@ const Project = (props)=>{
 const StyledImages=(props)=>{
   return (
     <div className='bg-[#A1128D] relative h-[600px]'>
-      <div className='bg-[url("./Projects/projectOneImg.png")] bg-center bg-cover bg-no-repeat w-64 h-48 sm:w-96 md:h-64 rounded-lg md:hover:w-[450px] md:hover:h-[300px] hover:z-20 hover:cursor-pointer border-2 border-black  rotate-12 scale-y-40 absolute hover:rotate-0 '></div>
+      <div className='bg-[url("/Projects/projectOneImg.png")] bg-center bg-cover bg-no-repeat w-64 h-48 sm:w-96 md:h-64 rounded-lg md:hover:w-[450px] md:hover:h-[300px] hover:z-20 hover:cursor-pointer border-2 border-black  rotate-12 scale-y-40 absolute hover:rotate-0 '></div>
       <div className='bg-no-repeat w-64  sm:w-96  rounded-lg md:hover:w-[450px] hover:z-20 hover:cursor-pointer border-2 border-black -rotate-12 absolute top-64  hover:rotate-0'>
           <video autoPlay muted loop id="myVideo">
             <source src="/Projects/projectOneVid.mp4" type="video/mp4"/>
