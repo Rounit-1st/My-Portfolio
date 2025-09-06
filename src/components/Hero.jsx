@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='grid grid-cols-1 w-lvh h-fit  lg:grid-cols-2'>
+    <div className='grid grid-cols-1 w-lvh h-fit  lg:grid-cols-2 w-full'>
       <div className='w-full h- p-4 sm:p-32'>
         <div className='mt-16 md:top-1/4 '>
           <h2 className='text-2xl md:text-4xl m-4'>Hi, I am 👋</h2>
