@@ -1,25 +1,45 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{js,jsx}"],
-  mode: "jit",
+export default {
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     extend: {
       colors: {
+        midnight: {
+          DEFAULT: "#050816",
+          dark: "#03050e",
+          card: "#0b102b",
+          cardHover: "#0e153b",
+          border: "#19224d",
+          borderHover: "#283777",
+          subtle: "#101638",
+        },
         primary: "#050816",
-        secondary: "#aaa6c3",
-        tertiary: "#151030",
-        "black-100": "#100d25",
-        "black-200": "#090325",
-        "white-100": "#f3f3f3",
+        secondary: "#94a3b8",
+        tertiary: "#0e153b",
+        "icy-blue": {
+          DEFAULT: "#38bdf8",
+          light: "#bae6fd",
+          dim: "#0284c7",
+        },
+        "violet-accent": {
+          DEFAULT: "#818cf8",
+          light: "#c7d2fe",
+          dim: "#6366f1",
+        },
+        "magenta-accent": {
+          DEFAULT: "#e879f9",
+          light: "#f5d0fe",
+          dim: "#d946ef",
+        },
       },
       boxShadow: {
-        card: "0px 35px 120px -15px #211e35",
+        card: "0 10px 30px -10px rgba(0, 0, 0, 0.5)",
+        "glow-ice": "0 0 25px -5px rgba(56, 189, 248, 0.25)",
+        "glow-violet": "0 0 25px -5px rgba(129, 140, 248, 0.25)",
+        "glow-magenta": "0 0 25px -5px rgba(232, 121, 249, 0.2)",
       },
       screens: {
         xs: "450px",
-      },
-      backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
       },
     },
   },

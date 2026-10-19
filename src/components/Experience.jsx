@@ -1,9 +1,7 @@
-import React from 'react'
+import Profiles from "./Profiles";
 
 const Experience = () => {
-  return (
-    <div>Experience</div>
-  )
-}
+  return <Profiles />;
+};
 
-export default Experience
+export default Experience;
