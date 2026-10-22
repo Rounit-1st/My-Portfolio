@@ -3,40 +3,25 @@ export default {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['"Source Sans 3"', "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "sans-serif"],
+        heading: ['"Archivo"', "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "sans-serif"],
+        mono: ['"JetBrains Mono"', "ui-monospace", "SFMono-Regular", "Menlo", "Monaco", "Consolas", "monospace"],
+      },
       colors: {
         midnight: {
           DEFAULT: "#050816",
-          dark: "#03050e",
-          card: "#0b102b",
-          cardHover: "#0e153b",
-          border: "#19224d",
-          borderHover: "#283777",
-          subtle: "#101638",
+          dark: "#03050c",
+          card: "#0b1022",
+          cardHover: "#0e152e",
+          border: "#18223d",
+          borderHover: "#243257",
         },
         primary: "#050816",
-        secondary: "#94a3b8",
-        tertiary: "#0e153b",
-        "icy-blue": {
-          DEFAULT: "#38bdf8",
-          light: "#bae6fd",
-          dim: "#0284c7",
-        },
-        "violet-accent": {
-          DEFAULT: "#818cf8",
-          light: "#c7d2fe",
-          dim: "#6366f1",
-        },
-        "magenta-accent": {
-          DEFAULT: "#e879f9",
-          light: "#f5d0fe",
-          dim: "#d946ef",
-        },
       },
       boxShadow: {
-        card: "0 10px 30px -10px rgba(0, 0, 0, 0.5)",
-        "glow-ice": "0 0 25px -5px rgba(56, 189, 248, 0.25)",
-        "glow-violet": "0 0 25px -5px rgba(129, 140, 248, 0.25)",
-        "glow-magenta": "0 0 25px -5px rgba(232, 121, 249, 0.2)",
+        subtle: "0 1px 3px 0 rgba(0, 0, 0, 0.4)",
+        card: "0 4px 20px -2px rgba(2, 6, 23, 0.6)",
       },
       screens: {
         xs: "450px",
